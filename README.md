@@ -1,9 +1,6 @@
 # KUON SNAP
 
-In this class I will be teaching about kuon yagi masterful portfolio snap.
+Neste repositório esta o funcionamento de um portfolio inspirado no portfolio do kuon yagi.
 
-
-Check it out, basically the functionality is to have sections that snap to the screen
-whenever the mouse goes up/down.
-
-https://kuon.space
+Acesse o site aqui:
+https://kuon-snap.vercel.app/
