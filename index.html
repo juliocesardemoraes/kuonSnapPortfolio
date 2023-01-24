@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snap</title>
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="show__scroll">
+      <h3>SCROLL</h3>
+      <br />
+      <h3>DOWN</h3>
+      <hr />
+    </div>
+
+    <main id="card__container">
+      <section
+        id="main__section"
+        class="flex flex__center flex__column flex-row flex__center__items kuon"
+      >
+        <h1>Júlio César</h1>
+        <h3>Web Developer/ UI DESIGNER</h3>
+        <img class="main__ilustration" src="./images/isometric__art.svg" />
+      </section>
+
+      <section
+        id="website__section"
+        class="flex flex__space__around flex__row flex-row flex__center__items kuon"
+      >
+        <div class="text__over">
+          <h1>AprendendoCodando</h1>
+          <h3>Website Project</h3>
+        </div>
+        <div class="image__container">
+          <img class="project__image" src="./images/ac.svg" />
+        </div>
+      </section>
+
+      <section
+        id="about__section"
+        class="flex flex__center flex__column flex-row flex__center__items kuon"
+      >
+        <h1>About Me</h1>
+        <h3>Learn More About me-></h3>
+        <video
+          id="video__source"
+          class="responsive__video w__100"
+          autoplay
+          loop
+          muted
+          defaultmuted
+          playsinline
+        >
+          <source
+            controls="false"
+            src="https://giant.gfycat.com/ScholarlyAntiqueDormouse.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+      <section
+        id="contact__section"
+        class="flex flex__center flex__column flex-row flex__center__items kuon"
+      >
+        <h1>Contact</h1>
+        <h3>Email</h3>
+        <h3>Linkedin</h3>
+        <h3>Github</h3>
+      </section>
+    </main>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+    <script await defer src="index.js"></script>
+  </body>
+</html>
