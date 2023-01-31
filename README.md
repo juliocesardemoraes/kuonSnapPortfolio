@@ -1,6 +1,6 @@
 # KUON SNAP
 
-Neste repositório esta o funcionamento de um portfolio inspirado no portfolio do kuon yagi.
+At this repo is an portfolio inspired by kuon yagi masterful portfolio
 
-Acesse o site aqui:
+Access his website here:
 https://kuon-snap.vercel.app/
